@@ -4,3 +4,6 @@
 [submodule "keystone"]
 	path = keystone
 	url = https://github.com/keystone-enclave/keystone
+[submodule "u-boot"]
+	path = u-boot
+	url = https://github.com/u-boot/u-boot.git
