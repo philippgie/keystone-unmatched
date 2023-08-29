@@ -1,0 +1,3 @@
+[submodule "dist/freedom-u-sdk"]
+	path = dist/freedom-u-sdk
+	url = https://github.com/sifive/freedom-u-sdk.git
