@@ -8,7 +8,9 @@
 
 Use the freedom-u-sdk to create a linux image by running 
 
->     kas build freedom-u-sdk/scripts/kas/unmatched.yml --target demo-coreip-cli
+```console
+kas build freedom-u-sdk/scripts/kas/unmatched.yml --target demo-coreip-cli
+```
 
 from ./dist. This will take some time(easily two hours on a powerful machine).
 
@@ -18,13 +20,17 @@ Follow the default keystone build instructions.
 
 # Build the SPL and u-boot
 
-> export OPENSBI=<path to keystone/build/sm.build/platform/generic/firmware/fw_dynamic.bin>
-> cd <U-Boot-dir>
-> make sifive_unmatched_defconfig
-> make FW_PAYLOAD=<path to keystone/build/sm.build/platform/generic/firmware/fw_payload.bin>
+```console
+export OPENSBI=<path to keystone/build/sm.build/platform/generic/firmware/fw_dynamic.bin>
+cd <U-Boot-dir>
+make sifive_unmatched_defconfig
+make FW_PAYLOAD=<path to keystone/build/sm.build/platform/generic/firmware/fw_payload.bin>
+```
 
 # Prepare the SD card
 
-> xzcat demo-coreip-cli-unmatched.wic.xz | sudo dd of=/dev/mmcblk0 bs=512K iflag=fullblock oflag=direct conv=fsync status=progress
-> sudo dd if=spl/u-boot-spl.bin of=/dev/mmcblk0 seek=34
-> sudo dd if=u-boot.itb of=/dev/mmcblk0 seek=2082
+```console
+xzcat demo-coreip-cli-unmatched.wic.xz | sudo dd of=/dev/mmcblk0 bs=512K iflag=fullblock oflag=direct conv=fsync status=progress
+sudo dd if=spl/u-boot-spl.bin of=/dev/mmcblk0 seek=34
+sudo dd if=u-boot.itb of=/dev/mmcblk0 seek=2082
+```
