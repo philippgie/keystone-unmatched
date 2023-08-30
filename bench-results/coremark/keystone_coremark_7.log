@@ -1,0 +1,24 @@
+2K performance run parameters for coremark.
+CoreMark Size    : 666
+Total ticks      : 328
+Total time (secs): 0.328000
+Iterations/Sec   : 3353.658537
+ERROR! Must execute for at least 10 secs for a valid result!
+Iterations       : 1100
+Compiler version : GCC10.2.0
+Compiler flags   : -O2 -static   -lrt
+Memory location  : Please put data memory location here
+			(e.g. code in flash, data on heap etc)
+seedcrc          : 0xe9f5
+[0]crclist       : 0xe714
+[0]crcmatrix     : 0x1fd7
+[0]crcstate      : 0x8e3a
+[0]crcfinal      : 0x33ff
+Errors detected
+[keystone-bench] Params:
+	untrusted: 2097152
+	freemem: 50331648
+	No timing
+	Running benchmark
+	
+*********

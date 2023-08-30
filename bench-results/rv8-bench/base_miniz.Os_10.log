@@ -1,0 +1,9 @@
+miniz.c version: 10.0.0
+Compressed from 8388608 to 3218224 bytes
+Decompressed from 3218224 to 8388608 bytes
+Success.
+iruntime 7304071
+
+real	0m7.309s
+user	0m7.196s
+sys	0m0.093s

@@ -1,0 +1,16 @@
+aes.O3
+aes.Os
+bigint.O3
+bigint.Os
+dhrystone.O3
+dhrystone.Os
+miniz.O3
+miniz.Os
+norx.O3
+norx.Os
+primes.O3
+primes.Os
+qsort.O3
+qsort.Os
+sha512.O3
+sha512.Os

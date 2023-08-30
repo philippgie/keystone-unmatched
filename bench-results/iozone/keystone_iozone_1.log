@@ -1,0 +1,9 @@
+Timer resolution is poor. Some small transfers may have 
+reported inaccurate results. Sizes 1024 kBytes and below.
+[keystone-bench] Params:
+	untrusted: 4194304
+	freemem: 50331648
+	No timing
+	Running benchmark
+	
+*********

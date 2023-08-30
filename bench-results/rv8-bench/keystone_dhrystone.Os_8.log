@@ -1,0 +1,15 @@
+Dhrystone(1.1-mc), 10000000 passes, 2481398 microseconds, 2289 DMIPS
+iruntime 2075162
+[keystone-bench] Params:
+	untrusted: 4194304
+	freemem: 268435456
+	Performing internal timing
+	Running benchmark
+	
+*********
+[keystone-bench] Init: 5440648 cycles
+[keystone-bench] Runtime: 2093555 cycles
+
+real	0m9.216s
+user	0m0.008s
+sys	0m9.184s

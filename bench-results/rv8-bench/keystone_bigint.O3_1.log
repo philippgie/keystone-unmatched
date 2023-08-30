@@ -1,0 +1,15 @@
+23 ^ 111121 has 151317 digits
+iruntime 2742163
+[keystone-bench] Params:
+	untrusted: 4194304
+	freemem: 268435456
+	Performing internal timing
+	Running benchmark
+	
+*********
+[keystone-bench] Init: 5884812 cycles
+[keystone-bench] Runtime: 2761040 cycles
+
+real	0m10.332s
+user	0m0.004s
+sys	0m10.306s

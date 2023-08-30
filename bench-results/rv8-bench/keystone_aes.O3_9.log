@@ -1,0 +1,15 @@
+0
+iruntime 3768269
+[keystone-bench] Params:
+	untrusted: 4194304
+	freemem: 268435456
+	Performing internal timing
+	Running benchmark
+	
+*********
+[keystone-bench] Init: 5426833 cycles
+[keystone-bench] Runtime: 3786713 cycles
+
+real	0m10.896s
+user	0m0.012s
+sys	0m10.859s

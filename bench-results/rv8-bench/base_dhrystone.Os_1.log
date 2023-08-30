@@ -1,0 +1,6 @@
+Dhrystone(1.1-mc), 10000000 passes, 2072809 microseconds, 2740 DMIPS
+iruntime 2072924
+
+real	0m2.074s
+user	0m2.069s
+sys	0m0.004s

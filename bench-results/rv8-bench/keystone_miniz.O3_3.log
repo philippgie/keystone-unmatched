@@ -1,0 +1,18 @@
+miniz.c version: 10.0.0
+Compressed from 8388608 to 3218224 bytes
+Decompressed from 3218224 to 8388608 bytes
+Success.
+iruntime 7224635
+[keystone-bench] Params:
+	untrusted: 4194304
+	freemem: 268435456
+	Performing internal timing
+	Running benchmark
+	
+*********
+[keystone-bench] Init: 5495464 cycles
+[keystone-bench] Runtime: 7243143 cycles
+
+real	0m14.421s
+user	0m0.012s
+sys	0m14.372s
